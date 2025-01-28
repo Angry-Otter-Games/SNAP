@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: c3a10c1576405de4eb84699b101338f5
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Avengeance
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: c0370a971dedb8e4e8dbb20aa4ff0915, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

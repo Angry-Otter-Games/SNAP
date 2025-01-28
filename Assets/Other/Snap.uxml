@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/SnapMenu.uss?fileID=7433441132597879392&amp;guid=1c688aee029cc0d4190e1e7f7c01cea8&amp;type=3#SnapMenu" />
+    <ui:VisualElement name="PARENT" style="max-width: none; max-height: none; width: auto; height: 100%; background-image: none; flex-direction: column; -unity-background-scale-mode: scale-and-crop; background-color: rgba(0, 0, 0, 0.16);">
+        <ui:VisualElement style="flex-grow: 1; flex-direction: row;">
+            <ui:VisualElement style="flex-grow: 1; flex-wrap: wrap; align-items: center; justify-content: center; width: 60%;">
+                <ui:VisualElement style="flex-grow: 0; align-items: auto; justify-content: center; min-width: auto; min-height: auto; transition-property: all; transition-duration: 0s; transition-timing-function: ease; transition-delay: 0s;" />
+            </ui:VisualElement>
+            <ui:VisualElement style="flex-grow: 1; align-items: center; justify-content: space-around;">
+                <ui:Button tabindex="-1" text="UP" display-tooltip-when-elided="true" name="levelUp" class="snap-button" />
+                <ui:Button tabindex="-1" text="Down" display-tooltip-when-elided="true" name="levelDown" class="snap-button" style="overflow: visible;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

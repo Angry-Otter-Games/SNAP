@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b2f986d570619d4ba86e2198b55ccaf, type: 3}
+  m_Name: Goku
+  m_EditorClassIdentifier: 
+  characterBase:
+    sprite: {fileID: 21300000, guid: 2969e4c782f1377408ae9bc04ad770d3, type: 3}
+    frameBreak: 1
+    animationZ: 0
+    orderInLayer: 0
+  characterBaseMap:
+    texture: {fileID: 2800000, guid: 20a4b6354651bcf4897faaf54d575af3, type: 3}
+    speed: 0.61
+    strength: 0.39
+  characterAddon:
+    sprite: {fileID: 21300000, guid: d3d07fd37e05c494aaf1176419c72f28, type: 3}
+    frameBreak: 0
+    animationZ: 0
+    orderInLayer: 26
+  characterAddonMap:
+    texture: {fileID: 2800000, guid: 9c54c9177f8ada74da8b73d177d82df2, type: 3}
+    speed: 0.61
+    strength: 0.39
+  title:
+    sprite: {fileID: 21300000, guid: 9257e15f03944c849aff088752553998, type: 3}
+    frameBreak: 0
+    animationZ: -0.62
+    orderInLayer: 0
+  background:
+    sprite: {fileID: 21300000, guid: ffce2d593fa12da4a8fa15405a106e75, type: 3}
+    frameBreak: 0
+    animationZ: 1
+    orderInLayer: 0
+  effect1:
+    sprite: {fileID: 0}
+    frameBreak: 0
+    animationZ: 0
+    orderInLayer: 0
+  effect2:
+    sprite: {fileID: 21300000, guid: 82e5c47afb1cedc4eb19be3287321cd1, type: 3}
+    frameBreak: 1
+    animationZ: -0.6
+    orderInLayer: 0
+  particle1: {fileID: 7019463592710331760, guid: ecdb46a8a821916408f246d61f6d50ed, type: 3}
+  particle2: {fileID: 3002444967007745307, guid: 58a71f3638ef2d949b946f0bb2468661, type: 3}
+  rarity: 6
+  cost: 1
+  power: 3

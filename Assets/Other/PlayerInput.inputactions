@@ -1,0 +1,66 @@
+{
+    "name": "PlayerInput",
+    "maps": [
+        {
+            "name": "Something",
+            "id": "b35e6250-085c-49ba-8075-c01b1ea56b9d",
+            "actions": [
+                {
+                    "name": "Up",
+                    "type": "Button",
+                    "id": "2aedaa03-ca7a-42a9-9c54-3e0b0d388818",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Down",
+                    "type": "Button",
+                    "id": "9fab5208-5e6a-4d76-b4c9-398763a7510f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "29154b07-cfe7-440e-b6ae-e5ce03238669",
+                    "path": "<Keyboard>/upArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Up",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d2c488af-7400-41f5-ac65-a496e1513637",
+                    "path": "<Keyboard>/downArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Down",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Something",
+            "bindingGroup": "Something",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+{
+    "name": "Controls",
+    "maps": [
+        {
+            "name": "Mouse",
+            "id": "a5caa1bd-8678-44c3-8a6d-44c04c0af4b4",
+            "actions": [
+                {
+                    "name": "Position",
+                    "type": "PassThrough",
+                    "id": "c00a8566-8b1c-48f9-aec5-41c6efef2116",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "54839212-692f-450e-bde5-201b9c755aa7",
+                    "path": "<Mouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Mouse",
+                    "action": "Position",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Mouse",
+            "bindingGroup": "Mouse",
+            "devices": []
+        }
+    ]
+}

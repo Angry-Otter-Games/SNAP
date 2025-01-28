@@ -1,0 +1,31 @@
+.snap-button {
+    font-size: 89px;
+    -unity-text-align: middle-center;
+    -unity-font-style: bold;
+    color: rgb(255, 129, 0);
+    background-color: rgba(255, 255, 255, 0);
+    border-left-width: 3px;
+    border-right-width: 3px;
+    border-top-width: 3px;
+    border-bottom-width: 3px;
+    -unity-text-outline-width: 0;
+    -unity-text-outline-color: rgb(255, 255, 255);
+    text-shadow: 0 0 0 rgb(0, 36, 255);
+    overflow: visible;
+    -unity-background-scale-mode: stretch-to-fill;
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    scale: 1 1;
+    border-top-left-radius: 27px;
+    border-bottom-left-radius: 27px;
+    border-top-right-radius: 27px;
+    border-bottom-right-radius: 27px;
+    transition-duration: 0.3s;
+}
+
+.snap-button:hover {
+    scale: 1.2 1.2;
+    transition-duration: 0.2s;
+}

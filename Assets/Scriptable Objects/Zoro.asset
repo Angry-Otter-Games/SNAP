@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b2f986d570619d4ba86e2198b55ccaf, type: 3}
+  m_Name: Zoro
+  m_EditorClassIdentifier: 
+  characterBase:
+    sprite: {fileID: 21300000, guid: ebed092ad592059449f535206be3bd62, type: 3}
+    frameBreak: 0
+    animationZ: -0.08
+    orderInLayer: 0
+  characterBaseMap:
+    texture: {fileID: 2800000, guid: 870376a2d01b41f41858373ccca416fd, type: 3}
+    speed: 0.9
+    strength: 0.06
+  characterAddon:
+    sprite: {fileID: 21300000, guid: 56842cb5a8315134da9bdf295cd6f6bd, type: 3}
+    frameBreak: 1
+    animationZ: -0.11
+    orderInLayer: 26
+  characterAddonMap:
+    texture: {fileID: 0}
+    speed: 0
+    strength: 0
+  title:
+    sprite: {fileID: 21300000, guid: d94166fd027c64441addc7a3568c2741, type: 3}
+    frameBreak: 0
+    animationZ: -0.62
+    orderInLayer: 0
+  background:
+    sprite: {fileID: 21300000, guid: 5fe27db2d5ad3e649bb8a149839b20aa, type: 3}
+    frameBreak: 0
+    animationZ: 2.02
+    orderInLayer: 0
+  effect1:
+    sprite: {fileID: 0}
+    frameBreak: 0
+    animationZ: 0
+    orderInLayer: 0
+  effect2:
+    sprite: {fileID: 0}
+    frameBreak: 0
+    animationZ: 0
+    orderInLayer: 0
+  particle1: {fileID: 388585497189001917, guid: 7f6d12656ad137a49a5c5e36aad1a7a0, type: 3}
+  particle2: {fileID: 3208854846983908922, guid: 265368c2d767e15468df80174ceaa631, type: 3}
+  rarity: 6
+  cost: 5
+  power: 9
